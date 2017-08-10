@@ -63,6 +63,7 @@ describe('space invaders', () => {
     var tristan, jon, katie, spaceship
     beforeEach(function() {
       tristan = new CrewMember('Pilot')
+      debugger
       jon = new CrewMember('Defender')
       katie = new CrewMember('Gunner')
       spaceship = new Spaceship('The Krestel', [tristan, jon, katie], 5, 4)
